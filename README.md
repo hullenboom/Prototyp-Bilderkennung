@@ -5,6 +5,8 @@ Dieser Prototyp in Form einer Android Applikation ist im Rahmen einer Masterarbe
 Die Applikation ermöglicht die Erkennung von den drei Einzelhandelsprodukten Chipsfrisch, Lätta und Nutella.
 Die Bilderkennung wurde mit TensorFlow Lite umgesetzt. Dafür wurde ein Image Classification und ein Object Detection Modell trainiert.
 
+Zusätzlich zum Code wird im Verzeichnis "APK" die ausführbare APK-Datei bereitgestellt.
+
 ## Trainieren der verwendeten Modelle
 
 Für das Trainieren der Modelle wurden folgende Google Colab Notebooks verwendet:
