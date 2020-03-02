@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Prototyp Bilderkennung</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Threads:</string>
+
+    <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+
+    <string name="model">Model:</string>
+    <string-array name="models">
+        <item>Float</item>
+        <item>Quantized</item>
+    </string-array>
+    <string-array name="detectionType">
+        <item>Image-Classification</item>
+        <item>Object-Detection</item>
+    </string-array>
+
+    <string name="device">Device:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string name="detection_type">Erkennungsart:</string>
+    <string name="title_history">Historie</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="start_image_classification">Image Classification</string>
+    <string name="start_object_detection">Object Detection</string>
+    <string name="start_evaluation">Evaluierung</string>
+
+    <string name="evaluate_image_classification">Evaluate Image Classification</string>
+    <string name="evaluate_object_detection">Evaluate Object Detection</string>
+</resources>
